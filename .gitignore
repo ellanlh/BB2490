@@ -1,0 +1,8 @@
+_site
+.bundle
+.env
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+.DS_Store
+
