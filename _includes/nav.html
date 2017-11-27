@@ -1,0 +1,12 @@
+<nav>
+  <h3>Posts</h3>
+  {% for post in site.posts %}
+    <ul>
+    {% if post.title %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%Y-%m-%d' }} {{ post.title }}</a>
+      </li>
+    {% endif %}
+    </ul>
+  {% endfor %}
+</nav>

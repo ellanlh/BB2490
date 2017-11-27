@@ -1,6 +1,58 @@
 ---
 ---
-$header-bg-color: #7f1599;
-$header-bg-color-secondary: #0fc7c7;
+$header-bg-color: #dd77ff;
+$header-bg-color-secondary: #fdff83;
+
+$section-headings-color: #4a4a4a;
 
 @import "{{ site.theme }}";
+
+a {
+  color: #4a4a4a;
+}
+
+.project-name {
+  a {
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.project-tagline {
+  opacity: 1;
+}
+
+nav {
+  position: absolute;
+  width: 20rem;
+  padding: 20px;
+
+  ul {
+    padding: 0px;
+    list-style-type: none;
+  }
+}
+
+p.meta {
+  font-size: 12px;
+}
+
+section.about {
+  position: absolute;
+  right: 0;
+  width: 20rem;
+  padding: 20px;
+}
+
+section.main-content {
+  max-width: 50rem;
+}
+
+@media screen and (max-width: 1024px) {
+  section.about, nav {
+    display: none;
+  }
+}
