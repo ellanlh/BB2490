@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "First meeting - project planning"
+title:  "First group meeting"
 date:   2017-11-27 18:00:00
 categories: main
 ---
 ### Project planning
-At this meeting, all group members were present and the project background and aim was discussed to make sure everyone is on the same page. The main goal of the first meeting was to organise the work for the upcoming days before the presentation on Seminar 1 (30th of November). It was decided that all project work (except for the individual diaries) is documented using Google Suite, i.e. Google Docs, Google sheets and Google Presentation. 
+At the first group meeting, all group members were present and the project background and aim was discussed to make sure everyone has understood what the project is about. The main goal of this meeting was to organise the work for the upcoming days before the presentation on Seminar 1 (30th of November). It was decided that all project work (except for the individual diaries) is documented using Google Suite, i.e. Google Docs, Google sheets and Google Presentation. 
 
 It was decided that an initial project plan, the Seminar 1 presentation, and basic read-up on assemblers and assembly approaches in general, should be done at the latest the evening of the 29th of November. An update on the presentation and project plan will be available in the next post. 
 
