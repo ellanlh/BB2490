@@ -16,7 +16,7 @@
 title: BB2491
 email: elindho@kth.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Analysis of Data fram High-throughput Molecular Biology Experiments
+  Analysis of Data from High-throughput Molecular Biology Experiments
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
