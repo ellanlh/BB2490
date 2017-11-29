@@ -8,8 +8,10 @@ categories: main
 ### Background
 Oomycetes is a group of Eukaryotic microorganisms that includes many different pathogens. One of these pathogens, *Phytophtora infestans*, is the most destructive pathogen of many different crops, in particular potato - an integral part of much of the world's food supply. The species *P. infestans* and other Oomycetes are therefore important to study, and their ability to invade host species make the them interesting to study from an industrial perspective. 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Late_blight_on_potato_leaf_2.jpg/800px-Late_blight_on_potato_leaf_2.jpg)
-Figure 1: [Potato leaflet infected by P. infestans. By Howard F. Schwartz, Colorado State University, United States](http://www.ipmimages.org/browse/detail.cfm?imgnum=5362902)
+{% include image.html
+            img="assets/images/late_blight_on_potato_leaf.jpg"
+            caption="Potato leaflet infected by P. infestans. By Howard F. Schwartz, Colorado State University, United States"
+            url="http://www.ipmimages.org/browse/detail.cfm?imgnum=5362902" %}
 
 Several genes of oomycetes have been studies before, and specifically chitin synthase (CHS), an enzyme involved in building up the cell walls. In order to get a better understanding of these genes, the genome of the species of interest needs to be assembled, and the species on which we will focus is *P. andina* which has been proved to be a hybrid of *P. infestans* and other unknown *Phytophtora* species.  
 
