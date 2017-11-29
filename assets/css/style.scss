@@ -56,3 +56,12 @@ section.main-content {
     display: none;
   }
 }
+
+.image-wrapper {
+  text-align: center;
+
+  .image-caption {
+    color: #999;
+    margin-top: 2px;
+  }
+}
