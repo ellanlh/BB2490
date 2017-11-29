@@ -28,6 +28,7 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jemoji
 
 timezone: Europe/Stockholm
 
