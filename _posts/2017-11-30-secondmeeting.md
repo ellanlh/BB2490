@@ -16,7 +16,7 @@ When talking to Lars Arvestad after the seminar, we were told that our data is n
 We are not sure yet how this will affect our assembly, and my thinking is that we will have to experiment a bit with the options available for ABySS and see what gives a better or worse assembly. For example, we could experiment with different k-mer sizes. However, I think we need to decide whether if it is more important to *have* an assembly that covers most of the genome, or to have a very accurate assembly of a part of the genome. From what I have understood it, it will be a bit of a trade-off. 
 
 ### The data 
-Today I also downloaded the sequencing data, both the reads and the CHS-gene files, to my folder on Rackham (UppMax). However, the format of the sequencing data file was in .gz format, and I could not find a way to unzip that file on Rackham. Therefore I downloaded it locally to my computer, extracted it, and uploaded the acquired .fastq file back to my folder on Rackham. This took a while considering the size of the files, but now we could take a look that the content which was as expected. Below is an example of a read. 
+Today I also downloaded the sequencing data, both the reads and the CHS-gene files, to my folder on Rackham (UppMax). However, the format of the sequencing data file was in `.gz`-format, and I could not find a way to unzip that file on Rackham. Therefore I downloaded it locally to my computer, extracted it, and uploaded the acquired `.fastq`-file back to my folder on Rackham. This took a while considering the size of the files, but now we could take a look that the content which was as expected. Below is an example of a read. 
 
 ```bash
 @SRR1817238.2 HWI-ST897:215:H0RT3ADXX:1:1101:1174:2066/1

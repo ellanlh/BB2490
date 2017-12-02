@@ -51,11 +51,11 @@ FastQ records kept: 44363188
 FastQ records discarded: 82312
 ```
 
-So the new fastq-file contains trimmed reads and very low-quality reads have been removed. However, I have not been able to assess whether removing 82312 reads is good or bad, or too much or too little, or perhaps just normal and expected. Considering it is less than 0.2% of the total number of reads, I am thinkinh it might not have a very large effect on the actual assembly (hopefully just a positive effect in improving the accuracy of the assembly).
+So the new FASTQ-file contains trimmed reads and very low-quality reads have been removed. However, I have not been able to assess whether removing 82312 reads is good or bad, or too much or too little, or perhaps just normal and expected. Considering it is less than 0.2% of the total number of reads, I am thinkinh it might not have a very large effect on the actual assembly (hopefully just a positive effect in improving the accuracy of the assembly).
 
 ### Assembly using ABySS  
 
-For the assembly, we continued following the instructions and added the needed modules. I added the abyss/2.0.2-k128 module which according to UppMax's list of modules seems to be the latest one. Panos and Maria added abyss/2.0.2, the second latest ABySS-module. We decided to run ABySS with three different k-mer sizes; 15, 30 and 48. I used a k-mer size of 48 and used both untrimmed and trimmed reads. 
+For the assembly, we continued following the instructions and added the needed modules. I added the `abyss/2.0.2-k128` module which according to UppMax's list of modules seems to be the latest one. Panos and Maria added `abyss/2.0.2`, the second latest ABySS-module. We decided to run ABySS with three different k-mer sizes; 15, 30 and 48. I used a k-mer size of 48 and used both untrimmed and trimmed reads. 
 
 A script was made to make it easier and the following line was used to run ABySS for the untrimmed, raw reads: 
 ```bash
@@ -72,9 +72,9 @@ Where k was set to 15 or 30 in the scripts run by Maria and Panos, respectively.
 abyss-se command not found
 ```
 
-The conlusion was that -se was not the way to use single-reads (in the case of paired end you would use abyss-pe). Therefor, both Maria and Panos ran the script with -pe instead and the job was submitted. 
+The conlusion was that `-se` was not the way to use single-reads (in the case of paired end you would use abyss-pe). Therefor, both Maria and Panos ran the script with `-pe` instead and the job was submitted. 
 
-At the time of writing, the jobs submitted by Maria and Panos have stopped and we have some of the output-files that we expect, but we also miss some important ones, for example .stats files with quality information about the assembly. The conclusion is that we somehow need to specify that we have single-reads. 
+At the time of writing, the jobs submitted by Maria and Panos have stopped and we have some of the output-files that we expect, but we also miss some important ones, for example `.stats`-files with quality information about the assembly. The conclusion is that we somehow need to specify that we have single-reads. 
 The following scripts have been submitted as two separate jobs and results are expected tomorrow: 
 
 ```bash
