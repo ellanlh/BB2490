@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Script for testing several k-mers"
-date:   2017-12-06 12:00:00
+date:   2017-12-06 17:00:00
 categories: main
 ---
 
