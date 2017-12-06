@@ -30,7 +30,7 @@ done
 
 For example, with 5 completed k-mer sizes, I now only use 11 Gb (including the actual sequence file) instead of approximately 160 Gb. 
 
-I will update tomorrow when all k-mers have been tested. After that, we aim to plot k-mer sizes against N50 and E-size, respectively. I will also run the assembly again, the same way, but with the trimmed data obtained by using `sickle` and plot the results there too. We expect that the trimmed data will generate a higher quality assembly of the contigs. 
+I will update tomorrow when all k-mers have been tested. Notice that the script will use every 8th k-mers from 31 to 90, but we realized that we should also test k-mers below 31. Therefore, Maria will run an assembly on k-mer size 23, and Panos will test with k-mer 15 and 7 which will be our smallest k-mer. After that, we aim to plot k-mer sizes against N50 and E-size, respectively. I will also run the assembly again, the same way, but with the trimmed data obtained by using `sickle` and plot the results there too. We expect that the trimmed data will generate a higher quality assembly of the contigs. 
 
 Today I also e-mailed Lars Arvestad and asked for a meeting so that we can discuss the problems we have so far and if he has any suggestions on how to proceed, or if what we are doing is a good approach. 
 
