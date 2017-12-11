@@ -53,4 +53,4 @@ The job is submitted on UppMax and running at the time of writing. I will update
 
 ### Weekly plan
 
-We decided to have our next group meeting on Wednesday the 13th of December, and by then, we will have run BLAST and obtained results, as well as analyzing them. Me and Maria have run BLAST on all genes with `-outfmt 6`while Panos has run on only the *P. infestans*-genes with `-outfmt 5`. We also decided to look into `MUMmer`on Wednesday and perhaps continue and Friday depending on if we have problems or not :-)
+We decided to have our next group meeting on Wednesday the 13th of December, and by then, we will have run BLAST and obtained results, as well as analyzing them. Me and Maria have run BLAST on all genes with `-outfmt 6`while Panos has run on only the *P. infestans*-genes with `-outfmt 5`. We also decided to look into `MUMmer`on Wednesday and perhaps continue and Friday depending on if we have problems or not :grin:
