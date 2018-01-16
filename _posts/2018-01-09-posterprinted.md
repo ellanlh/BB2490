@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Poster design started"
+title:  "Poster printed and summary of results"
 date:   2018-01-09 12:00:00
 categories: main
 ---
